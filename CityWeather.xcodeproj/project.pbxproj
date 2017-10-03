@@ -12,6 +12,19 @@
 		08EE0E381F832C57008A871B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08EE0E361F832C57008A871B /* Main.storyboard */; };
 		08EE0E3A1F832C57008A871B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08EE0E391F832C57008A871B /* Assets.xcassets */; };
 		08EE0E3D1F832C57008A871B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08EE0E3B1F832C57008A871B /* LaunchScreen.storyboard */; };
+		08EE0E451F832C76008A871B /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EE0E441F832C76008A871B /* CityModel.swift */; };
+		08EE0E471F832F62008A871B /* Vancouver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08EE0E461F832F23008A871B /* Vancouver.jpg */; };
+		08EE0E491F835120008A871B /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EE0E481F835120008A871B /* CityTableViewCell.swift */; };
+		08EE0E4B1F8363ED008A871B /* Beijing.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 08EE0E4A1F8363D9008A871B /* Beijing.jpeg */; };
+		08EE0E4D1F836550008A871B /* paris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08EE0E4C1F83648A008A871B /* paris.jpg */; };
+		08EE0E4F1F8366D7008A871B /* LosAngeles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08EE0E4E1F8365AA008A871B /* LosAngeles.jpg */; };
+		08EE0E511F8367AC008A871B /* London.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08EE0E501F8367A1008A871B /* London.jpg */; };
+		08EE0E531F836831008A871B /* sydney.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08EE0E521F83682E008A871B /* sydney.jpg */; };
+		08EE0E551F8369E0008A871B /* dubai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08EE0E541F8368BA008A871B /* dubai.jpg */; };
+		08EE0E571F8369EA008A871B /* kohSamui.png in Resources */ = {isa = PBXBuildFile; fileRef = 08EE0E561F8369E7008A871B /* kohSamui.png */; };
+		08EE0E591F836BA9008A871B /* Brazzaville.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08EE0E581F836BA5008A871B /* Brazzaville.jpg */; };
+		08EE0E5B1F836C95008A871B /* MexicoCity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08EE0E5A1F836C92008A871B /* MexicoCity.jpg */; };
+		08EE0E621F837687008A871B /* CityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EE0E601F837544008A871B /* CityDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +35,19 @@
 		08EE0E391F832C57008A871B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08EE0E3C1F832C57008A871B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08EE0E3E1F832C57008A871B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08EE0E441F832C76008A871B /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		08EE0E461F832F23008A871B /* Vancouver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Vancouver.jpg; path = ../../../../Downloads/Vancouver.jpg; sourceTree = "<group>"; };
+		08EE0E481F835120008A871B /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		08EE0E4A1F8363D9008A871B /* Beijing.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Beijing.jpeg; path = ../../../../Downloads/Beijing.jpeg; sourceTree = "<group>"; };
+		08EE0E4C1F83648A008A871B /* paris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = paris.jpg; path = ../../../../Downloads/paris.jpg; sourceTree = "<group>"; };
+		08EE0E4E1F8365AA008A871B /* LosAngeles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = LosAngeles.jpg; path = ../../../../Downloads/LosAngeles.jpg; sourceTree = "<group>"; };
+		08EE0E501F8367A1008A871B /* London.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = London.jpg; path = ../../../../Downloads/London.jpg; sourceTree = "<group>"; };
+		08EE0E521F83682E008A871B /* sydney.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sydney.jpg; path = ../../../../Downloads/sydney.jpg; sourceTree = "<group>"; };
+		08EE0E541F8368BA008A871B /* dubai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dubai.jpg; path = ../../../../Downloads/dubai.jpg; sourceTree = "<group>"; };
+		08EE0E561F8369E7008A871B /* kohSamui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kohSamui.png; path = ../../../../Downloads/kohSamui.png; sourceTree = "<group>"; };
+		08EE0E581F836BA5008A871B /* Brazzaville.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Brazzaville.jpg; path = ../../../../Downloads/Brazzaville.jpg; sourceTree = "<group>"; };
+		08EE0E5A1F836C92008A871B /* MexicoCity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = MexicoCity.jpg; path = ../../../../Downloads/MexicoCity.jpg; sourceTree = "<group>"; };
+		08EE0E601F837544008A871B /* CityDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +82,23 @@
 			children = (
 				08EE0E321F832C57008A871B /* AppDelegate.swift */,
 				08EE0E341F832C57008A871B /* ViewController.swift */,
+				08EE0E601F837544008A871B /* CityDetailViewController.swift */,
+				08EE0E481F835120008A871B /* CityTableViewCell.swift */,
+				08EE0E441F832C76008A871B /* CityModel.swift */,
 				08EE0E361F832C57008A871B /* Main.storyboard */,
 				08EE0E391F832C57008A871B /* Assets.xcassets */,
 				08EE0E3B1F832C57008A871B /* LaunchScreen.storyboard */,
 				08EE0E3E1F832C57008A871B /* Info.plist */,
+				08EE0E461F832F23008A871B /* Vancouver.jpg */,
+				08EE0E4A1F8363D9008A871B /* Beijing.jpeg */,
+				08EE0E4C1F83648A008A871B /* paris.jpg */,
+				08EE0E4E1F8365AA008A871B /* LosAngeles.jpg */,
+				08EE0E501F8367A1008A871B /* London.jpg */,
+				08EE0E521F83682E008A871B /* sydney.jpg */,
+				08EE0E541F8368BA008A871B /* dubai.jpg */,
+				08EE0E561F8369E7008A871B /* kohSamui.png */,
+				08EE0E581F836BA5008A871B /* Brazzaville.jpg */,
+				08EE0E5A1F836C92008A871B /* MexicoCity.jpg */,
 			);
 			path = CityWeather;
 			sourceTree = "<group>";
@@ -124,8 +163,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				08EE0E3D1F832C57008A871B /* LaunchScreen.storyboard in Resources */,
+				08EE0E571F8369EA008A871B /* kohSamui.png in Resources */,
+				08EE0E471F832F62008A871B /* Vancouver.jpg in Resources */,
 				08EE0E3A1F832C57008A871B /* Assets.xcassets in Resources */,
+				08EE0E511F8367AC008A871B /* London.jpg in Resources */,
 				08EE0E381F832C57008A871B /* Main.storyboard in Resources */,
+				08EE0E5B1F836C95008A871B /* MexicoCity.jpg in Resources */,
+				08EE0E531F836831008A871B /* sydney.jpg in Resources */,
+				08EE0E4F1F8366D7008A871B /* LosAngeles.jpg in Resources */,
+				08EE0E551F8369E0008A871B /* dubai.jpg in Resources */,
+				08EE0E4B1F8363ED008A871B /* Beijing.jpeg in Resources */,
+				08EE0E591F836BA9008A871B /* Brazzaville.jpg in Resources */,
+				08EE0E4D1F836550008A871B /* paris.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +187,9 @@
 			files = (
 				08EE0E351F832C57008A871B /* ViewController.swift in Sources */,
 				08EE0E331F832C57008A871B /* AppDelegate.swift in Sources */,
+				08EE0E491F835120008A871B /* CityTableViewCell.swift in Sources */,
+				08EE0E451F832C76008A871B /* CityModel.swift in Sources */,
+				08EE0E621F837687008A871B /* CityDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
