@@ -100,14 +100,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Weather：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nT-VL-50R">
-                                <rect key="frame" x="16" y="433" width="175" height="37"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="27°C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tec-WN-rIm">
-                                <rect key="frame" x="280" y="435" width="79" height="33"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="27°C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tec-WN-rIm">
+                                <rect key="frame" x="148.5" y="435" width="78" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -124,14 +118,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="6nT-VL-50R" firstAttribute="top" secondItem="9yd-4f-Dbw" secondAttribute="bottom" constant="27" id="3XJ-Pq-iNS"/>
-                            <constraint firstItem="2N1-V3-Zpv" firstAttribute="bottom" secondItem="AUb-oc-0F3" secondAttribute="bottom" constant="368" id="3fX-Ac-UoL"/>
-                            <constraint firstItem="6nT-VL-50R" firstAttribute="leading" secondItem="2N1-V3-Zpv" secondAttribute="leading" constant="16" id="4dm-os-Kgm"/>
                             <constraint firstItem="9yd-4f-Dbw" firstAttribute="top" secondItem="AUb-oc-0F3" secondAttribute="bottom" constant="65" id="QBH-V4-dWM"/>
                             <constraint firstItem="9yd-4f-Dbw" firstAttribute="centerX" secondItem="2dw-yO-zow" secondAttribute="centerX" id="QWA-Hl-R9n"/>
-                            <constraint firstItem="2N1-V3-Zpv" firstAttribute="trailing" secondItem="AUb-oc-0F3" secondAttribute="trailing" constant="16" id="XHJ-kg-Cpy"/>
                             <constraint firstItem="2N1-V3-Zpv" firstAttribute="trailing" secondItem="AUb-oc-0F3" secondAttribute="trailing" constant="16" id="bO7-8x-m0V"/>
-                            <constraint firstItem="2N1-V3-Zpv" firstAttribute="trailing" secondItem="Tec-WN-rIm" secondAttribute="trailing" constant="16" id="brB-jy-RLP"/>
+                            <constraint firstItem="AUb-oc-0F3" firstAttribute="top" secondItem="2N1-V3-Zpv" secondAttribute="top" constant="33" id="gEV-u3-516"/>
+                            <constraint firstItem="Tec-WN-rIm" firstAttribute="centerX" secondItem="2dw-yO-zow" secondAttribute="centerX" id="grJ-Mw-X6b"/>
                             <constraint firstItem="AUb-oc-0F3" firstAttribute="leading" secondItem="2N1-V3-Zpv" secondAttribute="leading" constant="16" id="hQT-ga-1P0"/>
                             <constraint firstItem="Tec-WN-rIm" firstAttribute="top" secondItem="9yd-4f-Dbw" secondAttribute="bottom" constant="29" id="u3D-D9-rm9"/>
                         </constraints>

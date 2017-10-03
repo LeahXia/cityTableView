@@ -31,7 +31,7 @@ class CityDetailViewController: UIViewController {
        
         
         //Help! force me to change otherwise complains: 'init' has been renamed to 'init(describing:)'
-        weatherLabel.text = (String(describing: selectedCity?.weather)) + "°C"
+        weatherLabel.text = "Weather： " + (String(describing: selectedCity?.weather)) + "°C"
         
         
     }
